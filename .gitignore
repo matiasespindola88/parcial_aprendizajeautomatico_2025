@@ -1,0 +1,40 @@
+# ------------------------------------
+# Archivos de Sistema Operativo y Entorno
+# ------------------------------------
+.DS_Store # Mac
+*~        # Linux
+Thumbs.db # Windows
+
+# ------------------------------------
+# Archivos de Python y Entorno Virtual
+# ------------------------------------
+# Entornos virtuales
+venv/
+env/
+.env
+
+# Cache de Python
+__pycache__/
+*.pyc
+
+# Archivos de instalación
+*.egg-info/
+dist/
+
+# ------------------------------------
+# Archivos de Machine Learning y Colab
+# ------------------------------------
+# Archivos de modelos entrenados (suelen ser muy pesados)
+*.pkl
+*.h5
+*.joblib
+*.pth
+
+# Archivos de datos generados o temporales (si no son el dataset original)
+# Si tu dataset original es muy grande, debes ignorar el archivo grande.
+# Ej. data/big_raw_file.csv
+
+# Directorios de experimentos
+runs/
+logs/
+.ipynb_checkpoints # Checkpoints de Jupyter/Colab
