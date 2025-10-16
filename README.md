@@ -37,7 +37,7 @@ Todas las variables son **Numéricas**, lo que requiere un preprocesamiento cuid
 ## 3. Estructura del Repositorio (Objetividad de Cookiecutter)
 
 La estructura del repositorio ha sido diseñada para ser objetiva y minimalista, siguiendo buenas prácticas de *Data Science* sin carpetas de relleno:
-
+```
 parcial_aprendizajeautomatico_2025/
  ├── data/ 
  │   └── faultdata-new.csv #Dataset original (10.000 registros).
@@ -49,3 +49,4 @@ parcial_aprendizajeautomatico_2025/
  ├── .gitignore # Para evitar subir archivos temporales/grandes.
  ├── README.md # Descripción completa del proyecto y dataset (este archivo).
  └── DESCRIPCION_PROYECTO.txt # Bloque de texto con objetivos y justificación.
+ ```
