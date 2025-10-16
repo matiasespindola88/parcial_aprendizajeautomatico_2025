@@ -1,0 +1,24 @@
+TITULO DEL PROYECTO: Diagnóstico y Clasificación de Fallas en Sistemas Eléctricos
+
+PREGUNTA INTERESANTE: ¿Es posible, a partir de las mediciones de voltaje, corriente y potencia, clasificar con alta precisión la causa raíz de una anomalía eléctrica, utilizando modelos de clasificación supervisada basados en la relación existente entre las variables predictoras y la etiqueta de falla?
+
+DOMINIO: Ingeniería Eléctrica y Mantenimiento Predictivo.
+
+PROBLEMA ESPECÍFICO: Determinar la causa raíz (ej. Cortocircuito, Sobrecarga, Falla de Componente) de una anomalía eléctrica a partir de las mediciones de voltaje, corriente y potencia de los sensores. Esto transforma la respuesta de emergencia en un mantenimiento dirigido y eficiente.
+
+CONTEXTO Y RELEVANCIA: El problema se sitúa en la necesidad industrial de reducir los costos operativos y los tiempos de inactividad. El diagnóstico manual es lento y propenso a errores. El modelo de AA proporciona una herramienta de diagnóstico automatizado, de alto valor práctico, que aprovecha los datos de los sensores.
+
+TAREA DE ML: CLASIFICACIÓN Multiclase.
+La variable objetivo es categórica (el tipo de falla), y debe ser asignada a una de las múltiples clases posibles.
+
+
+OBJETIVO GENERAL: Desarrollar y evaluar un modelo de Clasificación Multiclase capaz de diagnosticar la causa raíz de una anomalía eléctrica.
+
+OBJETIVOS ESPECÍFICOS:
+1. Implementar y evaluar el rendimiento de los modelos k-NN y Regresión Logística Multiclase.
+2. Utilizar el contraste entre ambos modelos para justificar analíticamente la naturaleza lineal o no lineal de las relaciones en el dataset.
+3. Lograr una Puntuación F1 superior al 90% en la clasificación de las fallas.
+
+MODELOS A UTILIZAR:
+- K-Vecinos Más Cercanos (k-NN): Modelo de alto rendimiento, ideal para patrones no lineales.
+- Regresión Logística Multiclase: Modelo de contraste lineal. Su análisis de coeficientes se utilizará para interpretar el impacto **combinado** de las variables sobre la probabilidad de la clase.
