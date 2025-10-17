@@ -17,7 +17,7 @@ El *dataset* es una fuente de datos sintéticos y etiquetados, ampliamente utili
 ### Estructura del Dataset
 | Característica | Detalle |
 | :--- | :--- |
-| **Instancias (Registros)** | 10,000 |
+| **Instancias (Registros)** | 1,788 |
 | **Características (Columnas)** | 20 |
 | **Tipo de Problema** | Clasificación Multiclase (Aprendizaje Supervisado) |
 | **Variables Predictoras ($X$)** | 19 (Mediciones eléctricas) |
