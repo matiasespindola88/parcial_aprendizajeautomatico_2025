@@ -18,7 +18,7 @@ El *dataset* es una fuente de datos sintéticos y etiquetados, ampliamente utili
 | Característica | Detalle |
 | :--- | :--- |
 | **Instancias (Registros)** | 1,788 |
-| **Características (Columnas)** | 20 |
+| **Características (Columnas)** | 19 |
 | **Tipo de Problema** | Clasificación Multiclase (Aprendizaje Supervisado) |
 | **Variables Predictoras ($X$)** | 19 (Mediciones eléctricas) |
 | **Variable Objetivo ($Y$)** | 1 (`Target` o `Class` - La etiqueta de la falla) |
@@ -43,9 +43,11 @@ parcial_aprendizajeautomatico_2025/
  │   └── faultdata-new.csv #Dataset original (10.000 registros).
  ├── docs/ # Documentación formal 
  │   ├── 01_Post_Propuesta_Foro.md # Documentación histórica del foro.
- │   └── Propuesta_Parcial_Espindola_Matias.pdf # Primera entrega formal.
+ │   ├── Propuesta_Parcial_Espindola_Matias.pdf # Primera entrega formal.
+ │   ├── Diccionario de Datos.pdf # Archivo pdf con el diccionario de datos
+ │   └── Informe de Cierre de la Exploración de datos # Informe detallado del EDA
  ├── src/ # Código fuente del proyecto (notebooks y scripts).
- │   └── nombrearchivo.ipnyb # Notebook de exploración y entrenamiento.
+ │   └── Entrega02_Espindola_Matias.ipnyb # Notebook de exploración y entrenamiento.
  ├── .gitignore # Para evitar subir archivos temporales/grandes.
  ├── README.md # Descripción completa del proyecto y dataset (este archivo).
  └── DESCRIPCION_PROYECTO.txt # Bloque de texto con objetivos y justificación.
