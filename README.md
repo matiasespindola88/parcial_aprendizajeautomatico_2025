@@ -40,7 +40,7 @@ La estructura del repositorio ha sido diseñada para ser objetiva y minimalista,
 ```
 parcial_aprendizajeautomatico_2025/
  ├── data/ 
- │   └── faultdata-new.csv #Dataset original (10.000 registros).
+ │   └── faultdata-new.csv #Dataset original (1.788 registros).
  ├── docs/ # Documentación formal 
  │   ├── 01_Post_Propuesta_Foro.md # Documentación histórica del foro.
  │   ├── Propuesta_Parcial_Espindola_Matias.pdf # Primera entrega formal.
