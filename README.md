@@ -39,15 +39,20 @@ Todas las variables son **Numéricas**, lo que requiere un preprocesamiento cuid
 La estructura del repositorio ha sido diseñada para ser objetiva y minimalista, siguiendo buenas prácticas de *Data Science* sin carpetas de relleno:
 ```
 parcial_aprendizajeautomatico_2025/
- ├── data/ 
- │   └── faultdata-new.csv #Dataset original (1.788 registros).
+ ├── data/
+ │   ├── raw/
+ │   │    └── faultdata-new.csv #Dataset original (1.788 registros). # Dataset original del proyecto.
+ │   └── processed/
+ │        └── faultdata-escalado.csv #Dataset preprocesado.
  ├── docs/ # Documentación formal 
  │   ├── 01_Post_Propuesta_Foro.md # Documentación histórica del foro.
  │   ├── Propuesta_Parcial_Espindola_Matias.pdf # Primera entrega formal.
  │   ├── Diccionario de Datos.pdf # Archivo pdf con el diccionario de datos
  │   └── Informe de Cierre de la Exploración de datos # Informe detallado del EDA
  ├── src/ # Código fuente del proyecto (notebooks y scripts).
- │   └── Entrega02_Espindola_Matias.ipnyb # Notebook de exploración y entrenamiento.
+ │   ├── Entrega02_Espindola_Matias.ipnyb # Notebook de exploración y entrenamiento.
+ │   ├── Entrega03_Espindola_Matias.ipnyb # Notebook de comparación y selección del modelo optimo.
+ │   └── Entrega_Parcial_Espindola_Matias.ipnyb # Notebook final del proyecto.
  ├── .gitignore # Para evitar subir archivos temporales/grandes.
  ├── README.md # Descripción completa del proyecto y dataset (este archivo).
  └── DESCRIPCION_PROYECTO.txt # Bloque de texto con objetivos y justificación.
