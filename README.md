@@ -41,7 +41,7 @@ La estructura del repositorio ha sido diseñada para ser objetiva y minimalista,
 parcial_aprendizajeautomatico_2025/
  ├── data/
  │   ├── raw/
- │   │    └── faultdata-new.csv #Dataset original (1.788 registros). # Dataset original del proyecto.
+ │   │    └── faultdata-new.csv  # Dataset original del proyecto.
  │   └── processed/
  │        └── faultdata-escalado.csv #Dataset preprocesado.
  ├── docs/ # Documentación formal 
