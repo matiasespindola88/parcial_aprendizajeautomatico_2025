@@ -53,6 +53,9 @@ parcial_aprendizajeautomatico_2025/
  │   ├── Entrega02_Espindola_Matias.ipnyb # Notebook de exploración y entrenamiento.
  │   ├── Entrega03_Espindola_Matias.ipnyb # Notebook de comparación y selección del modelo optimo.
  │   └── Entrega_Parcial_Espindola_Matias.ipnyb # Notebook final del proyecto.
+ ├── media/
+ │   ├── Link_Video.txt # Archivo .txt que contiene el enlace a Google Drive para visualizar el video.
+ │   └── Video_Parcial_Espindola_Matias.mp4 # Video explicativo del proyecto.
  ├── .gitignore # Para evitar subir archivos temporales/grandes.
  ├── README.md # Descripción completa del proyecto y dataset (este archivo).
  └── DESCRIPCION_PROYECTO.txt # Bloque de texto con objetivos y justificación.
