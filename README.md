@@ -48,7 +48,8 @@ parcial_aprendizajeautomatico_2025/
  │   ├── 01_Post_Propuesta_Foro.md # Documentación histórica del foro.
  │   ├── Propuesta_Parcial_Espindola_Matias.pdf # Primera entrega formal.
  │   ├── Diccionario de Datos.pdf # Archivo pdf con el diccionario de datos
- │   └── Informe de Cierre de la Exploración de datos # Informe detallado del EDA
+ │   ├── Informe de Cierre de la Exploración de datos # Informe detallado del EDA
+ │   └── Analisis de Metricas y Conclusiones.pdf # Informe Final del Proyecto
  ├── src/ # Código fuente del proyecto (notebooks y scripts).
  │   ├── Entrega02_Espindola_Matias.ipnyb # Notebook de exploración y entrenamiento.
  │   ├── Entrega03_Espindola_Matias.ipnyb # Notebook de comparación y selección del modelo optimo.
